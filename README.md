@@ -19,5 +19,13 @@
 
 ### 2.  폴더 구조
 ```
-ㄹㅇㄴ
+설치 폴더
+    ├── config
+    ├── Grafana
+    ├── Middle-Server
+    ├── Prometheus
+    ├── Alertmanager(추가 예정)
 ```
+
+### 3.  실행 순서
+* [Target application] -> [Prometheus] -> [grafana / alertmanager] -> [Middle-Server]
