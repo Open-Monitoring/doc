@@ -20,7 +20,8 @@
 ### 2.  폴더 구조
 ```
 설치 폴더
-    ├── config
+    ├── doc(문서, 실행 스크립트)
+    ├── config(추가 예정)
     ├── Grafana
     ├── Middle-Server
     ├── Prometheus
