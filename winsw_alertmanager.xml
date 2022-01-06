@@ -1,0 +1,13 @@
+<service>
+    <id>open_monitoring_alertmanager</id>                      
+    <name>open_monitoring_alertmanager</name>                     
+    <description>alertmanager window service for open_monitoring</description>                                           
+    <executable>%BASE%\alertmanager-0.21.0.windows-amd64\alertmanager.exe</executable>
+    <arguments>--config.file=%BASE%\alertmanager-0.21.0.windows-amd64\alertmanager.yml --cluster.listen-address="" --web.listen-address=:9876</arguments>
+    <workingdirectory>%BASE%\alertmanager-0.21.0.windows-amd64</workingdirectory>
+    <logpath>%BASE%\winsw_log\alertmanager_log</logpath>
+</service>
+
+
+
+

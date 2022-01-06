@@ -1,0 +1,13 @@
+<service>
+    <id>open_monitoring_prometheus</id>                      
+    <name>open_monitoring_prometheus</name>                     
+    <description>prometheus window service for open_monitoring</description>                                           
+    <executable>%BASE%\..\Prometheus\prometheus.exe</executable>
+    <arguments>--config.file=%BASE%\..\Prometheus\config\prometheus.yml --web.listen-address=:1000 --storage.tsdb.retention.time=15d --web.enable-admin-api --web.enable-lifecycle</arguments>
+    <workingdirectory>%BASE%\..\Prometheus</workingdirectory>
+    <logpath>%BASE%\winsw_log\prometheus_log</logpath>
+</service>
+
+
+
+

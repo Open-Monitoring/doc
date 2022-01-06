@@ -1,0 +1,12 @@
+<service>
+    <id>open_monitoring_grafana</id>                      
+    <name>open_monitoring_grafana</name>                     
+    <description>grafana window service for open_monitoring</description>                                           
+    <executable>%BASE%\..\Grafana\bin\grafana-server.exe</executable>
+    <workingdirectory>%BASE%\..\Grafana\bin</workingdirectory>
+    <logpath>%BASE%\winsw_log\grafana_log</logpath>
+</service>
+
+
+
+
